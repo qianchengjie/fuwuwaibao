@@ -24,6 +24,7 @@ $(document).ready(function() {
 			if (password == '1234') {
 				$('.dialog-content p').text('签到成功！')
 				$('.tips p').text('签到成功！');
+				$('.anhao').fadeOut();
 				$('.number').slideUp();
 				dialogShow();
 			} else {
