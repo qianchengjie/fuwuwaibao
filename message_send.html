@@ -119,8 +119,8 @@
 		$(document).ready(function(){
 
 		$('.btn-submit').click(function(){
-			var suject = $('.subject').val();
-			var className = $('.class-name').val();
+			var suject = $('.subject option:selected').text();
+			var className = $('.class-name option:selected').text();
 			var spans = $('.dialog-content').find('span');
 			$(spans[0]).text(suject);
 			$(spans[1]).text(className);

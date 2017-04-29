@@ -20,9 +20,11 @@ $(document).ready(function() {
 			}
 		})
 	})
+	//全部已读
 	$('.all-read').click(function(){
 		$('.message-content').find('li').addClass('already-read')
 	})
+	//清空消息
 	$('.clear-all').click(function(){
 		$('.message-content').empty()
 	})
