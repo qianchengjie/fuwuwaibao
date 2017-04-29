@@ -1,0 +1,65 @@
+html{
+	background-color: #ECECEC;
+}
+.main-head,.btn-signin,.btn-submit,.btn-finish,.btn-start{
+	z-index: -1;
+}
+.form{
+}
+.input-group{
+}
+.input-group label{
+	display: block;
+	font-size: 1rem;
+	line-height: 1rem;
+	padding-top: 1rem;
+	text-align: center;
+	color: #848587;
+	margin:  0 auto;
+}
+.form-control{
+	margin:  0 9.5vw;
+	width: 80vw;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-family: inherit;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control:focus{
+	border: 2px solid #27BFA2;
+	box-shadow: 2px 2px 8px #27BFA2;
+}
+select.className{
+	max-height: 8rem;
+}
+.homework-content{
+	height: 10rem;
+	resize: none;
+	z-index: 2000;
+}
+.btn-submit{
+	position: fixed;
+	margin: 0 auto;
+	bottom: 0;
+	width: 100%;
+	color: #FFF;
+	height: 3rem;
+    display: block;
+    background: #91E2DC;
+    border: 2px solid #5FD2C8;
+    font-family: "Microsoft YaHei";
+    color: #444;
+    -webkit-box-shadow: #91E2DC 0px 0px 20px;
+    -moz-box-shadow: #91E2DC 0px 0px 20px;
+    box-shadow: #91E2DC 0px 0px 20px;
+    text-align: center;
+}
