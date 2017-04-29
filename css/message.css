@@ -1,6 +1,8 @@
 
 /*信息内容*/
-.message-content{}
+.message-content{
+	height: 300px;
+}
 .message-content li{
 	padding-left: 2rem;
 	padding-bottom: .5rem;
@@ -24,10 +26,12 @@
 	font-size: 3rem;
 	line-height: 5rem;
 	margin-top: -3.5rem;
+	z-index: -1;
 	color: #888;
 }
 .already-read{
-	opacity: .5;
+	background-color: rgba(255,255,255,.8);
+	color: rgba(55,55,55,.4);
 }
 /*dialog*/
 .dialog p{
