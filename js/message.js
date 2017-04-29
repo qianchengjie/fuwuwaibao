@@ -10,5 +10,8 @@ $(document).ready(function() {
 	$('.all-read').click(function(){
 		$('.message-content').find('li').addClass('already-read')
 	})
+	$('.clear-all').click(function(){
+		$('.message-content').empty()
+	})
 
 });
